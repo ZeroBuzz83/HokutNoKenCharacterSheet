@@ -1,0 +1,245 @@
+.sheet-main {
+
+  	width:    800px; /* Defines the width and height of the sheet */
+  	height:   1200px;
+	background-image: url("https://github.com/ZeroBuzz83/HokutNoKenCharacterSheet/blob/main/SchedaFront7.jpg?raw=true");
+ 	background-size: 800px 1200px; /* Sets the sheet border image to same size as sheet */
+  	background-repeat: no-repeat;
+}
+
+.CharacterData{
+	position:fixed;
+ 	top:197px;
+	left:57px;
+	width:600px;
+	height:95px;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-template-rows: repeat(3, 30px);
+	padding-top: 5px;
+
+}
+
+.Data{
+
+	display:grid;
+	grid-template-columns:auto 1fr;
+	grid-template-rows:auto;
+	column-gap: 5px;
+		
+}
+	
+.DataHeader{
+	padding-left:8px;
+	padding-right:8px;
+	line-height: 28px;
+	font-size: 18px;
+
+
+}
+
+.DataValue{
+	line-height: 28px;
+	
+		
+}
+
+.Stats{
+	position:fixed;
+ 	top:320px;
+	left:55px;
+	width:292px;
+	height:450px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 155px 120px 115px 50px;
+	column-gap: 3px;
+	font-size: 11px;
+	
+}
+
+.CompnentiMezzi{
+	padding-top: 30px;
+	display: grid;
+	grid-template-columns: 113px 30px;
+	grid-template-rows: repeat(4, 32px);
+}
+
+.StatsName{
+	display: grid;
+	align-items: center;
+	padding-left: 37px;
+}
+
+
+.StatsValue{
+	display: grid;
+	align-items: center;
+	text-align: center;
+	padding-left:3px;
+}
+
+.Regni{
+	padding-top: 22px;
+	display: grid;
+	grid-template-columns: 113px 30px;
+	grid-template-rows: repeat(3, 32px);
+	
+}
+
+.Energie{
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: 113px 30px;
+	grid-template-rows: repeat(3, 32px);
+}
+
+.Tecniche{
+	
+	padding-top: 22px;
+	display: grid;
+	grid-template-columns: 113px 30px;
+
+}
+	
+.CombatStats{
+
+	position:fixed;
+ 	top:320px;
+	left:347px;
+	width:105px;
+	height:450;	
+	padding-top:25px;
+	padding-left: 5px;
+	padding-right: 0px;
+	display: grid;
+	grid-template-columns: 65px 25px;
+	grid-template-rows: repeat(10, 42px);
+	column-gap: 4px;
+	font-size: 13px;
+	
+	
+}
+	
+.CombatStatsName{
+	padding-top: 3px;
+	text-align: right;
+	font-size: 10px;
+	
+}	
+
+.CombatStatsValue{
+	height:28px;
+	width:28px;
+	border:solid 2px;
+	border-color: black;
+	line-height: 28px;
+	text-align: center;
+	
+	
+}	
+
+.PDRE{
+	position:fixed;
+ 	top:700px;
+	left:458px;
+	width:210px;
+	height:60px;	
+	padding-top:7px;
+	padding-left: 2px;
+	padding-right: 5px;
+	display: grid;
+	grid-template-columns: 96%;
+	grid-template-rows: repeat(3, 18px);
+	column-gap: 4px;
+	font-size: 7px;
+		
+}
+
+.PD{
+
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 8px 10px;
+	
+}
+	
+.PDlegend{
+	display: grid;
+	grid-template-columns: 60px repeat(3, 12px);
+	grid-template-rows: 8px;
+	padding-left: 54px;
+	padding-top: 1px;		
+	align-items: center;
+	text-align: center;
+}
+
+
+.PDRERow{
+	display: grid;
+	grid-template-columns: 66px 110px;
+	grid-template-rows: 10px;
+	
+}
+	
+.PDREName{
+	padding-top:1px;
+
+}
+
+
+
+.PDREPoints{
+	display: grid;
+	grid-template-columns: repeat(9, 12px) 25px;
+	grid-template-rows: 10px;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+.PDREP{
+	border: 1px solid black;
+}
+.PDREPH{
+	border: 0px solid ;
+}
+
+
+.PRElegend{
+	display: grid;
+	grid-template-columns: 30px repeat(9, 12px) 25px;
+	grid-template-rows: 8px;
+	padding-left: 36px;
+	padding-top: 1px;		
+	align-items: center;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
